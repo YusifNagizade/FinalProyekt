@@ -16,6 +16,7 @@ li {
     list-style: none;
     padding: 20px;
     
+    
 }
 
 .ule {
@@ -44,6 +45,7 @@ button {
     background-color: red;
     padding: 5px;
     border-radius: 10px;
+    color: white;
 }
 
 footer {
@@ -78,7 +80,9 @@ footer {
 .footer1 li {
     margin-bottom: 5px;
 }
-
+a{
+    color: rgb(35, 139, 187);
+}
 .footer1 input {
     width: 80%;
     padding: 8px;
@@ -240,10 +244,3 @@ app-links img {
     height: 600px;
     width: 400px;
 }
-#kazan-kofte{
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    margin-bottom: 32px;
-}
-
