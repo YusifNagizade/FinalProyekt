@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mb-3 {
+    height: 80px;
+}
+
+.hall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+input {
+
+    width: 185x;
+    height: 30px;
+}
+
+.myform {
+    margin-right: 200px;
+    margin-left: 200px;
+
+
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+}
+
+.ust {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.el li,
+footer li {
+    list-style: none;
+    padding: 20px;
+    font-size: 20px
+}
+
+.ule {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.el {
+    display: flex;
+    margin-bottom: 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.part2 {
+    padding-top: 20px;
+    padding: 20px;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+
+.footer1 {
+    margin: 10px;
+}
+
+.footer1 {
+    margin-bottom: 10px;
+}
+
+.footer1 {
+    list-style: none;
+    padding: 0;
+}
+
+.footer1 li {
+    margin-bottom: 5px;
+}
+
+.footer1 input {
+    width: 80%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+app-links img {
+    width: 120px;
+    margin-top: 10px;
+}
