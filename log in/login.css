@@ -16,23 +16,6 @@
 
 }
 
-input {
-
-    width: 185x;
-    height: 30px;
-}
-
-.myform {
-    margin-right: 200px;
-    margin-left: 200px;
-
-
-.container {
-    justify-content: center;
-    align-items: center;
-}
-}
-
 .ust {
     background-color: red;
     color: white;
@@ -117,4 +100,23 @@ footer {
 app-links img {
     width: 120px;
     margin-top: 10px;
+}
+
+.myform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+input {
+    padding: 10px;
+    width: 400px;
+    margin: 20px;
+}
+
+.myform button {
+    padding: 10px;
+    width: 400px;
 }
