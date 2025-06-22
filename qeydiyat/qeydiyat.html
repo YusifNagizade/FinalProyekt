@@ -28,16 +28,18 @@
             </div>
         </div>
     </header>
+    <hr>
     <main>
         <div class="container">
 
             <h1 class="hall">Create An Account</h1>
-            <form class="myform">
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Surname">
-                <input type="email" placeholder="E-mail">
-                <input type="text" placeholder="Username">
-                <input type="number" placeholder="Password">
+            <div id="message-box"></div>
+            <form class="myform" id="SignUp">
+                <input type="text" placeholder="Name" id="name" name="name" required>
+                <input type="text" placeholder="Surname" id="surname" name="surname" required>
+                <input type="text" placeholder="Username" id="username" name="username" required>
+                <input type="password" placeholder="Password" id="password" name="password" required>
+                <input type="email" placeholder="E-mail" id="email" name="email" required>
                 <button>Create Account</button>
             </form>
         </div>
