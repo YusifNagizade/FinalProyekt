@@ -24,7 +24,6 @@
     font-size: 14px;
 }
 
-.el li,
 footer li {
     list-style: none;
     padding: 20px;
@@ -97,7 +96,7 @@ footer {
     border-radius: 5px;
 }
 
-app-links img {
+.app-links img {
     width: 120px;
     margin-top: 10px;
 }
@@ -110,7 +109,7 @@ app-links img {
     padding: 30px;
 }
 
-input {
+main input ,main select  {
     padding: 10px;
     width: 400px;
     margin: 20px;

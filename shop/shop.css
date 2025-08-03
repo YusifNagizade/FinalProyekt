@@ -12,7 +12,7 @@
     font-size: 14px;
 }
 
-.el li,
+
 footer li {
     list-style: none;
     padding: 20px;
@@ -85,12 +85,12 @@ footer {
     border-radius: 5px;
 }
 
-app-links img {
+.app-links img {
     width: 120px;
     margin-top: 10px;
 }
 
-h1,
+main h2,
 .category input {
     margin-left: 70px;
     padding: 10px;
@@ -140,7 +140,7 @@ input {
 }
 
 .option button {
-    max-width: 100px;
+    max-width: 140px;
 }
 
 .car-list {
@@ -165,5 +165,18 @@ input {
 
 .products {
     display: flex;
+    flex-wrap: wrap;
 }
 
+.product-card img{
+        object-fit: contain;
+    width: 230px;
+    height: 200px;
+
+}
+.product-card {
+border: 1px solid rgb(169, 167, 167);
+border-radius: 5px;
+padding: 10px;
+margin: 5px;
+}

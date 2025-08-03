@@ -90,7 +90,7 @@ a{
     border-radius: 5px;
 }
 
-app-links img {
+.app-links img {
     width: 120px;
     margin-top: 10px;
 }
@@ -243,4 +243,9 @@ app-links img {
 #iphone{
     height: 600px;
     width: 400px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
 }

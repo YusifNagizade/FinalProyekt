@@ -40,14 +40,15 @@ function loginFunc(user){
          
         if (data.status !== 403) {
             localStorage.setItem("activeUser",JSON.stringify(data.body))
+            setTimeout(() => {
+            window.location = "../esas/index.html";
+        }, 2000 );
         } else {
             showMessage("Invalid password","danger");
         }
         
 
-        // setTimeout(() => {
-        //     window.location.href = "http://127.0.0.1:5500/about/about.html";
-        // }, 2000 );
+        
     })
 }
 

@@ -94,7 +94,7 @@ a {
     border-radius: 5px;
 }
 
-app-links img {
+.app-links img {
     width: 120px;
     margin-top: 10px;
 }
@@ -103,21 +103,23 @@ app-links img {
     margin-top: 40px;
 }
 #image{
-    width: 800px;
+    width: 400px;
     height: 550px;
-    margin-left: 80px;
+    margin-left: 90px;
+    object-fit: contain;
 }  
 .cont2{
     display: flex;
+    align-items: center;
 }
 .info-container{
     margin-left: 80px;
 }
 h3{
-    padding: 30px;
+    padding: 20px 0px;
 }
 .info-container button{
-    margin-top: 90px;
+    margin-top: 40px;
     width: 200px;
 }
 h2{
@@ -128,10 +130,10 @@ h2{
 .items-container{
     margin-top:40px;
     display: flex;
+    justify-content: space-between;
 }
 .items{
     padding: 20px;
-    padding-left: 130px;
 }
 .items img{
     width: 200px;

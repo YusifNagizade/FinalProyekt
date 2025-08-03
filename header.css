@@ -1,0 +1,79 @@
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.ust {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+li {
+    list-style: none;
+    padding: 10px 20px;
+
+
+}
+
+#looking {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.ule {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.el {
+    display: flex;
+    margin-bottom: 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.el li:hover {
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.el li:hover a {
+    color: white;
+}
+
+.part2 {
+    padding-top: 20px;
+    padding: 20px;
+}
+
+/* #image {
+    width: 100%;
+    height: 600px;
+} */
+
+button {
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+.header {
+    padding: 40px 80px 20px;
+}
+
+
+.icon{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}

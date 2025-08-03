@@ -12,7 +12,6 @@
     font-size: 14px;
 }
 
-.el li,
 footer li {
     list-style: none;
     padding: 20px;
@@ -85,7 +84,7 @@ footer {
     border-radius: 5px;
 }
 
-app-links img {
+.app-links img {
     width: 120px;
     margin-top: 10px;
 }
@@ -116,8 +115,13 @@ h2{
     color: red;
     margin: 10px;
 }
-span{
+main p{
     font-size: 25px;
     color: black;
+    margin: 10px;
+}
+main span{
+    font-size: 20px;
+    color: rgb(66, 65, 65);
     margin: 10px;
 }

@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 function addUser(user) {
-    fetch("http://195.26.245.5:9505/api/clients",{
+    fetch("http://195.26.245.5:9505/api/clients", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -43,12 +43,12 @@ function addUser(user) {
         body: JSON.stringify(user),
     })
 
-    .then((res) => res.json())
-    .then((data) => {
-        console.log(data);
-         
-        if (data.status === 200) {
-            localStorage.setItem("activeUser",JSON.stringify(data.body))
-        } 
-})
+        .then((res) => res.json())
+        .then((data) => {
+            alert("Qeydiyyat uğurlu oldu!")
+            window.location = "../log in/login.html"
+        })
+        .catch(() => {
+            alert("Error")
+        })
 }
