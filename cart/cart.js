@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", function () {
     cartTotal.textContent = total.toFixed(2) + "$";
   }
 
-  // Input quantity dəyişəndə localStorage-i yenilə
   cartBody.addEventListener("input", function (e) {
     if (e.target.classList.contains("quantity")) {
       const index = e.target.getAttribute("data-index");
@@ -50,7 +49,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Remove düyməsi
   cartBody.addEventListener("click", function (e) {
     if (e.target.classList.contains("remove")) {
       const index = e.target.getAttribute("data-index");
@@ -62,3 +60,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
   renderCart();
 });
+//son    

@@ -5,7 +5,6 @@ let activeUser = JSON.parse(localStorage.getItem("activeUser"));
 let products = [];
 let filteredProducts = [];
 
-// Məhsulları yüklə
 fetchProducts();
 
 async function fetchProducts() {
@@ -30,7 +29,6 @@ async function fetchProducts() {
     }
 }
 
-// Məhsulları göstər
 function loadProducts() {
     prooductList.innerHTML = "";
 
@@ -53,7 +51,6 @@ function loadProducts() {
             </div>
         `;
 
-        // Şəklə kliklə seçilmiş məhsulu saxla
         const img = productCard.querySelector(".product-image");
         img.addEventListener("click", () => selectedProduct(product));
 
@@ -61,19 +58,16 @@ function loadProducts() {
     });
 }
 
-// Seçilmiş məhsulu localStorage-a yaz
 function selectedProduct(product) {
     localStorage.setItem("selectedProduct", JSON.stringify(product));
     window.location.href = "../product page/product.html";
 }
 
-// Kategoriya üzrə filtr
 function getProducts(categoryId) {
     filteredProducts = products.filter(product => product.categoryId === categoryId);
     loadProducts();
 }
 
-// Kategoriyaları yüklə və göstər
 fetch("http://195.26.245.5:9505/api/categories", {
     method: "GET",
     headers: {
@@ -85,7 +79,6 @@ fetch("http://195.26.245.5:9505/api/categories", {
 .then((data) => {
     category.innerHTML = "";
 
-    // Bütün məhsullar üçün "All" düyməsi
     const allLi = document.createElement("li");
     allLi.textContent = "All";
     allLi.style.cursor = "pointer";
@@ -95,7 +88,6 @@ fetch("http://195.26.245.5:9505/api/categories", {
     });
     category.appendChild(allLi);
 
-    // Hər bir kateqoriya üçün klik funksiyası
     data.forEach((obj) => {
         const li = document.createElement("li");
         li.textContent = obj.name;
@@ -106,3 +98,4 @@ fetch("http://195.26.245.5:9505/api/categories", {
         category.appendChild(li);
     });
 });
+//son    

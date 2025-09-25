@@ -23,3 +23,5 @@ fetch("http://195.26.245.5:9505/api/clients/get-details", {
             <p>Username: <span> ${data.username}</span></p>`;
 
     })
+
+//son    

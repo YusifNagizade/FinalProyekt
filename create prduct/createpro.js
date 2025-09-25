@@ -24,13 +24,12 @@ document.getElementById("formProduct").addEventListener("submit", function (even
             return response.json();
         })
         .then((data)=>{
-            window.location="../shop/shop.html"
+            window.location="../user products/userproducts.html"
         })
 })
 
 let category = document.getElementById("category")
 
-// Kategoriyaları yüklə və göstər
 fetch("http://195.26.245.5:9505/api/categories", {
     method: "GET",
     headers: {
@@ -49,3 +48,4 @@ fetch("http://195.26.245.5:9505/api/categories", {
             category.appendChild(option);
         });
     });
+    //son    
